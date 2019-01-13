@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "tag": "agc-cattle-pounds-weaned",
+      "dependencies": [],
+      "componentClass": "AgcCattlePoundsWeaned",
+      "componentPath": "components/agc-cattle-pounds-weaned/agc-cattle-pounds-weaned.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        },
+        {
+          "name": "units",
+          "type": "Any",
+          "attr": "units"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-cattle-pounds-weaned-inputs",
+      "dependencies": [],
+      "componentClass": "AgcCattlePoundsWeanedInputs",
+      "componentPath": "components/agc-cattle-pounds-weaned-inputs/agc-cattle-pounds-weaned-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-cattle-pounds-weaned-progress",
+      "dependencies": [],
+      "componentClass": "AgcCattlePoundsWeanedProgress",
+      "componentPath": "components/agc-cattle-pounds-weaned-progress/agc-cattle-pounds-weaned-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-cattle-pounds-weaned-results",
+      "dependencies": [],
+      "componentClass": "AgcCattlePoundsWeanedResults",
+      "componentPath": "components/agc-cattle-pounds-weaned-results/agc-cattle-pounds-weaned-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-cattle-pounds-weaned-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcCattlePoundsWeanedResultsPlaceholder",
+      "componentPath": "components/agc-cattle-pounds-weaned-results-placeholder/agc-cattle-pounds-weaned-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

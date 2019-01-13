@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:e}=window.AgcCattlePoundsWeaned;class a{render(){return e("section",null,e("ul",{class:"agc-results-placeholder"},e("li",null,e("h2",{"data-i18n":"results.weight-weaned-per-female"},"Weight Weaned per Female"),(()=>e("span",null,e("i",{class:"mark"})," ",e("i",{class:"mark"})," ",e("i",{class:"mark"})," ",e("i",{class:"mark"})))())))}static get is(){return"agc-cattle-pounds-weaned-results-placeholder"}}export{a as AgcCattlePoundsWeanedResultsPlaceholder};
